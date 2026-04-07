@@ -1,8 +1,37 @@
-.image-equilibrium {
-  height: 230px;
+.preview {
+  border-radius: 18px;
+
+  width: 260px;
+  height: 480px;
+  padding: 24px;
+  background-color: var(--Blue900);
+  margin: auto;
+}
+
+.cube-equilibrium {
+  width: 100%;
   border-radius: 10px;
 }
 
-.one-line {
+.hearder-text {
   color: var(--White);
+  font-size: 20px;
+}
+
+.content {
+  color: var(--Blue500);
+}
+
+.code-word {
+  color: var(--Cyan400);
+}
+
+.icon-subline {
+  margin-right: 25px;
+}
+
+.boy-avator {
+  width: 32px;
+  float: left;
+  boader: 2px solid var(--White);
 }
