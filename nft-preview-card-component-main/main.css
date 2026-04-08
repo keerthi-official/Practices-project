@@ -2,7 +2,6 @@
   border-radius: 18px;
 
   width: 260px;
-  height: 480px;
   padding: 24px;
   background-color: var(--Blue900);
   margin: auto;
@@ -54,14 +53,16 @@
   width: 30px;
   height: 30px;
   border-radius: 50%;
-  border: 2px soild white;
+  border: 2px solid white;
 }
 
 .profile-image {
   display: flex;
   align-items: center;
   gap: 10px;
-  margin-top: 45px;
+  margin-top: 20px;
+  border-top: 1px solid var(--Blue500);
+  padding-top: 10px;
 }
 
 .creator {
@@ -74,6 +75,6 @@
 
 .creator-profile {
   display: flex;
-  align-item: center;
+  align-items: center;
   gap: 5px;
 }

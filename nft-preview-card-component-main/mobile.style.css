@@ -1,0 +1,6 @@
+@media (max-width: 425px) {
+  .preview {
+    min-width: 270;
+    max-width: 290;
+  }
+}
