@@ -26,12 +26,54 @@
   color: var(--Cyan400);
 }
 
-.icon-subline {
-  margin-right: 25px;
+.icon-header {
+  justify-content: space-between;
 }
 
+.code-icon {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.days {
+  color: var(--Blue500);
+}
+
+.days-icon {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.icon-header {
+  display: flex;
+  justify-content: space-between;
+}
 .boy-avator {
-  width: 32px;
-  float: left;
-  boader: 2px solid var(--White);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 2px soild white;
+}
+
+.profile-image {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 45px;
+}
+
+.creator {
+  color: var(--Blue500);
+}
+
+.creator-name {
+  color: var(--White);
+}
+
+.creator-profile {
+  display: flex;
+  align-item: center;
+  gap: 5px;
 }
