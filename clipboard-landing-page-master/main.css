@@ -1,0 +1,52 @@
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#hero_section {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3em;
+  min-height: 80vh;
+  max-width: 40vw;
+}
+
+.base-heading {
+  font-size: 2.18em;
+  margin-block: 1.5em;
+  color: var(--gray700);
+}
+
+.description {
+  color: var(--gray500);
+  line-height: 1.5em;
+}
+
+.controls-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2em;
+}
+
+.controls-buttons > .cta-button {
+  all: unset;
+  display: block;
+  padding: 1em 1.5em;
+  background-color: black;
+  margin-block: 1.33em;
+  border-radius: 1000px;
+  color: white;
+}
+
+.controls-buttons > #cta-download_iOS {
+  background-color: var(--green500);
+}
+
+.controls-buttons > #cta-download_Mac {
+  background-color: var(--blue100);
+}
